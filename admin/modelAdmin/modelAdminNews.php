@@ -22,7 +22,7 @@ class modelAdminNews {
 				$sql = "INSERT INTO `news` (`id`, `title`, `text`,`picture`, `category_id`,`user_id`) VALUES (NULL, '$title', '$text', '$image', '$idCategory', '1')";
 				$db = new Database();
 				$item = $db->executeRUn($sql);
-				if(item==true) {
+				if($item==true) {
 					$test=true;
 				}
 			}
