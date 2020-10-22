@@ -9,7 +9,7 @@
 <body>
 	<div class="topPicture">
 		
-	</div>
+	</div>    
 <nav class="one">
 	<ul class="topmenu">
 		<li><a href="#">Category<i class="fa fa-angle-down"></i></a>
@@ -27,6 +27,7 @@
 
 <section>
 	<div class="divBox">
+		<div class="contentCenter">
 		<?php 
 			if(isset($content)) {
 				echo $content;
@@ -34,12 +35,13 @@
 				echo '<h1>Content is gone!</h1>';
 			}
 		?>
+		</div>
 	</div>
 </section>
 
 <footer>
 	<hr>
-	<p style="display: block; text-align: center;">JKTVR19 2020 &copy</p>
+	<p style="display: block; text-align: center; background-color: white;">SPTV18 2020 &copy</p>
 </footer>
 </body>
 </html>

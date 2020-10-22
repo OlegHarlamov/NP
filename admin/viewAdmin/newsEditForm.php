@@ -77,6 +77,10 @@ else{
 	 		</tr>		 		
 		 	</table>
 		 </form>
+<?php }?>
 	
 </div>
 </div>
+
+<?php $content = ob_get_clean();?>
+<?php include "viewAdmin/templates/layout.php"; ?>

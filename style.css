@@ -1,6 +1,7 @@
 body {
 	margin:0;
 	font-family: Arial;	
+  background-image: url("images/bg.jpg");
 	}
 h2 {
   font-family: monospace;
@@ -29,6 +30,7 @@ ul {
   margin-right: 0;
 }
 .divBox{
+  background-color: #E0E0E0;
 	width: 85%;
     margin-left: 20px;
 }
@@ -185,6 +187,12 @@ th{
 }
 
 .topPicture{
- background-image: url("images/testbg.jpg");
- height: 100%;
+ background-color: gray;
+ height: 150px;
+}
+
+.contentCenter{
+      width: 400px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
 }
