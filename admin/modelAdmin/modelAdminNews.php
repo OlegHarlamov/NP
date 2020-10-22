@@ -26,7 +26,8 @@ class modelAdminNews {
 					$test=true;
 				}
 			}
-		}
+        }
+                                }
 		//----------------------------------------news detail id
 	public static function getNewsDetail($id) {
 		$query = "SELECT news.*, category.name, userts.username from news, category,users WHERE news.category_id=category.id AND news.user_id=users.id and news.id=".$id;
@@ -68,9 +69,9 @@ class modelAdminNews {
 	if($item==true){
 		$test=true;
 		}
+		return $test;
 	}
 }
 
-		return $test;
-	}
+	
 
