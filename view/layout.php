@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="topPicture">
-		
+		<a href="./" class="gmn"><p class="">Game News</p></a>
 	</div>    
 <nav class="one">
 	<ul class="topmenu">
@@ -27,7 +27,7 @@
 
 <section>
 	<div class="divBox">
-		<div class="contentCenter">
+		
 		<?php 
 			if(isset($content)) {
 				echo $content;
@@ -35,7 +35,7 @@
 				echo '<h1>Content is gone!</h1>';
 			}
 		?>
-		</div>
+
 	</div>
 </section>
 

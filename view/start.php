@@ -1,6 +1,7 @@
 <?php 
 ob_start();
 ?>
+<div class="contentCenter">
 <h1>TOP 3 NEWS</h1>
 <br>
 <?php
@@ -8,3 +9,4 @@ ob_start();
 	$content = ob_get_clean();
 	include_once 'view/layout.php';
 ?>
+</div>
