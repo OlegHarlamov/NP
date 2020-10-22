@@ -7,7 +7,9 @@
 	<meta charset="utf-8">
 </head>
 <body>
-
+	<div class="topPicture">
+		
+	</div>
 <nav class="one">
 	<ul class="topmenu">
 		<li><a href="#">Category<i class="fa fa-angle-down"></i></a>

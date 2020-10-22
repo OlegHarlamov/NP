@@ -28,14 +28,14 @@ class modelAdminNews {
 			}
 		}
 		//----------------------------------------news detail id
-	public static function getNewsDetail($id){
+	public static function getNewsDetail($id) {
 		$query = "SELECT news.*, category.name, userts.username from news, category,users WHERE news.category_id=category.id AND news.user_id=users.id and news.id=".$id;
 		$db = new Database();
 		$arr = $db->getOne($query);
 		return $arr;
 	}
 	//------------------------------news edit
-	public static functiongetNewsEdit($id){
+	public static function getNewsEdit($id){
 		$test = false;
 		if(isset($_POST['save'])){
 			if(isset($_POST['title']) && isset($_POST['text']) && isset($_POST['idCategory']) ){

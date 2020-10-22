@@ -41,7 +41,7 @@ a {
   padding: 10px 15px;
   text-decoration: none;
   outline: none;
- 
+  color: red;
   transition: .5s linear;
   
 }
@@ -182,4 +182,9 @@ h1{
 
 th{
     text-align: center;
+}
+
+.topPicture{
+ background-image: url("images/testbg.jpg");
+ height: 100%;
 }
